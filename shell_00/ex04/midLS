@@ -1,0 +1,5 @@
+#!/bin/sh
+# -m fill width with a comma separated list of entries
+# -t sort by modification time, newest first
+# -p indica um slash /
+ls -m -t -p
