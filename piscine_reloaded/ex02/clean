@@ -1,0 +1,7 @@
+#!/bin/sh 
+# o find pretende encontrar nos diretórios os arquivos nomeados.
+# o -name seguido de " " indica o caracter que que o find deve encontrar.
+# -type f especifica que o que deve ser encontrado são somente arquivos.
+# -print especifica para que o que for encontrado seja mostrado no terminal.
+# -delete se explica por si só.
+find . -name "*~" -type f -print -delete -or -name "#*#" -type f -print -delete
